@@ -1,0 +1,12 @@
+Source: ros-melodic-fsrobo-r-bringup
+Section: misc
+Priority: optional
+Maintainer: F-ROSROBO <F-ROSROBO@fsi.co.jp>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-catkin, ros-melodic-fsrobo-r-description, ros-melodic-fsrobo-r-driver, ros-melodic-fsrobo-r-moveit-config, ros-melodic-robot-state-publisher, ros-melodic-tf2-ros
+Homepage: http://wiki.ros.org/fsrobo_r_bringup
+Standards-Version: 3.9.2
+
+Package: ros-melodic-fsrobo-r-bringup
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-fsrobo-r-description, ros-melodic-fsrobo-r-driver, ros-melodic-fsrobo-r-moveit-config, ros-melodic-robot-state-publisher, ros-melodic-tf2-ros
+Description: The fsrobo_r_bringup package

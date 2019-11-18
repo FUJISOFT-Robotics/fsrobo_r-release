@@ -1,0 +1,13 @@
+ros-melodic-fsrobo-r-bringup (0.7.1-1bionic) bionic; urgency=high
+
+  * Use KDL as default kinematics
+
+ -- F-ROSROBO <F-ROSROBO@fsi.co.jp>  Sun, 17 Nov 2019 15:00:00 -0000
+
+ros-melodic-fsrobo-r-bringup (0.7.0-1bionic) bionic; urgency=high
+
+  * first public release
+
+ -- F-ROSROBO <F-ROSROBO@fsi.co.jp>  Mon, 14 Oct 2019 15:00:00 -0000
+
+
