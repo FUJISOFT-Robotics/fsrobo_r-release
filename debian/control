@@ -1,0 +1,12 @@
+Source: ros-melodic-fsrobo-r-driver
+Section: misc
+Priority: optional
+Maintainer: F-ROSROBO <F-ROSROBO@fsi.co.jp>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-catkin, ros-melodic-fsrobo-r-msgs, ros-melodic-industrial-robot-client, ros-melodic-roslaunch, ros-melodic-rostest, ros-melodic-urdf
+Homepage: http://wiki.ros.org/fsrobo_r_driver
+Standards-Version: 3.9.2
+
+Package: ros-melodic-fsrobo-r-driver
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-fsrobo-r-msgs, ros-melodic-industrial-robot-client, ros-melodic-urdf
+Description: The fsrobo_r_driver package
