@@ -1,5 +1,6 @@
 FSRobo-R Package BSDL
 ---------
+Copyright (c) 2011, Southwest Research Institute
 Copyright (C) 2019 FUJISOFT. All rights reserved.
 
 Redistribution and use in source and binary forms, with or without modification,
