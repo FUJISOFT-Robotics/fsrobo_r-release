@@ -1,0 +1,12 @@
+Source: ros-melodic-fsrobo-r-moveit-config
+Section: misc
+Priority: optional
+Maintainer: F-ROSROBO <F-ROSROBO@fsi.co.jp>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-catkin, ros-melodic-fsrobo-r-description
+Homepage: http://moveit.ros.org/
+Standards-Version: 3.9.2
+
+Package: ros-melodic-fsrobo-r-moveit-config
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-fsrobo-r-description, ros-melodic-joint-state-publisher, ros-melodic-moveit-kinematics, ros-melodic-moveit-planners-ompl, ros-melodic-moveit-ros-move-group, ros-melodic-moveit-ros-visualization, ros-melodic-robot-state-publisher, ros-melodic-xacro
+Description: An automatically generated package with all the configuration and launch files for using the fsrobo_r with the MoveIt! Motion Planning Framework
