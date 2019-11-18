@@ -1,0 +1,12 @@
+Source: ros-melodic-fsrobo-r-trajectory-filters
+Section: misc
+Priority: optional
+Maintainer: F-ROSROBO <F-ROSROBO@fsi.co.jp>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-catkin, ros-melodic-moveit-core, ros-melodic-moveit-ros-planning, ros-melodic-orocos-kdl, ros-melodic-pluginlib, ros-melodic-trajectory-msgs
+Homepage: http://wiki.ros.org/fsrobo_r_trajectory_filters
+Standards-Version: 3.9.2
+
+Package: ros-melodic-fsrobo-r-trajectory-filters
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-moveit-core, ros-melodic-moveit-ros-planning, ros-melodic-orocos-kdl, ros-melodic-pluginlib, ros-melodic-trajectory-msgs
+Description: plugins for filtering trajectories.
