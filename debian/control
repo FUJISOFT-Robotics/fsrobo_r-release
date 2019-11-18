@@ -1,0 +1,12 @@
+Source: ros-kinetic-fsrobo-r-trajectory-filters
+Section: misc
+Priority: optional
+Maintainer: F-ROSROBO <F-ROSROBO@fsi.co.jp>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin, ros-kinetic-moveit-core, ros-kinetic-moveit-ros-planning, ros-kinetic-orocos-kdl, ros-kinetic-pluginlib, ros-kinetic-trajectory-msgs
+Homepage: http://wiki.ros.org/fsrobo_r_trajectory_filters
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-fsrobo-r-trajectory-filters
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-moveit-core, ros-kinetic-moveit-ros-planning, ros-kinetic-orocos-kdl, ros-kinetic-pluginlib, ros-kinetic-trajectory-msgs
+Description: plugins for filtering trajectories.
