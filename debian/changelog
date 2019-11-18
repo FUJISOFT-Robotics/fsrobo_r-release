@@ -1,0 +1,13 @@
+ros-kinetic-fsrobo-r-driver (0.7.1-1xenial) xenial; urgency=high
+
+  * Improve performance
+
+ -- F-ROSROBO <F-ROSROBO@fsi.co.jp>  Sun, 17 Nov 2019 15:00:00 -0000
+
+ros-kinetic-fsrobo-r-driver (0.7.0-1xenial) xenial; urgency=high
+
+  * first public release
+
+ -- F-ROSROBO <F-ROSROBO@fsi.co.jp>  Mon, 14 Oct 2019 15:00:00 -0000
+
+
